@@ -1,4 +1,6 @@
 # osu!tracker
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fzeroday0619%2Fosu-tracker.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fzeroday0619%2Fosu-tracker?ref=badge_shield)
+
 지정한 플레이어가 상위 100개 pp 기록을 갱신할 때마다 알려주는 디스코드 봇입니다.
 
 ## 환경 설정
@@ -30,3 +32,7 @@ CREATE TABLE `osutracker`.`pphistories` (
   PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fzeroday0619%2Fosu-tracker.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fzeroday0619%2Fosu-tracker?ref=badge_large)
